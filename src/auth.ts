@@ -24,7 +24,7 @@
  * done the work — refreshing again would spend a token that is now current.
  */
 
-import { HttpClient, TokenStore, ToolError } from "@nasdigital/mcp-server-core";
+import { HttpClient, TokenStore, ToolError } from "@nasdigitaluk/mcp-server-core";
 
 const TOKEN_URL = "https://api.x.com/2/oauth2/token";
 /** Refresh this far ahead of expiry, so a long call cannot straddle it. */
