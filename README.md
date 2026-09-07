@@ -9,7 +9,7 @@ MIT licensed.
 ## Install
 
 ```bash
-npm install -g @nasdigital/x-mcp
+npm install -g @nasdigitaluk/x-mcp
 ```
 
 ## Authentication
@@ -108,7 +108,7 @@ X_BEARER_TOKEN=x npm run smoke        # real MCP over stdio
 
 ## Built on
 
-[`@nasdigital/mcp-server-core`](https://github.com/N-Graves/mcp-server-core).
+[`@nasdigitaluk/mcp-server-core`](https://github.com/N-Graves/mcp-server-core).
 
 ## Licence
 

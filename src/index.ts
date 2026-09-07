@@ -30,7 +30,7 @@ import {
   TokenStore,
   authorizerFromEnv,
   runServer,
-} from "@nasdigital/mcp-server-core";
+} from "@nasdigitaluk/mcp-server-core";
 import { homedir } from "node:os";
 import { join } from "node:path";
 import { appOnlyAuth, authedClient, userAuth, type XAuth } from "./auth.js";

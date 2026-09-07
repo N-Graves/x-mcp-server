@@ -13,7 +13,7 @@
  *
  * 104 read, 57 write, 29 destructive.
  */
-import type { Operation } from "@nasdigital/mcp-server-core";
+import type { Operation } from "@nasdigitaluk/mcp-server-core";
 
 export interface CataloguedOperation extends Operation {
   tags: string[];
